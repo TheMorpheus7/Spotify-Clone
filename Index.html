@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName" >Tu Hai Kahan</span>
+                    <span class="songlistplay"><span class="timestamp">04:23<i id="0" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName">Bekhayali</span>
+                    <span class="songlistplay"><span class="timestamp">06:11<i id="1" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName">Dooriyan</span>
+                    <span class="songlistplay"><span class="timestamp">05:36<i id="2" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName">Galat Fehmi</span>
+                    <span class="songlistplay"><span class="timestamp">04:46<i id="3" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName">Kahin Toh</span>
+                    <span class="songlistplay"><span class="timestamp">05:03<i id="4" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName">Mere Bina</span>
+                    <span class="songlistplay"><span class="timestamp">04:49<i  id="5" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songName">Pehli Mohabbat</span>
+                    <span class="songlistplay"><span class="timestamp">04:04<i id="6" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/8.jpg" alt="1">
+                    <span class="songName">Zara Sa</span>
+                    <span class="songlistplay"><span class="timestamp">05:03<i id="7" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div><div class="songitem">
+                    <img src="covers/9.jpg" alt="1">
+                    <span class="songName">Zindagi Bata De</span>
+                    <span class="songlistplay"><span class="timestamp">02:35<i id="8" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>    
+            </div>
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-shuffle"></i>
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step"></i>
+            <i class="fa-solid fa-2x fa-repeat" id="next"></i>
+        
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Tu hai kahan</span>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/76774866f2.js" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
